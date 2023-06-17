@@ -1,9 +1,11 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/resume.pdf' 
+import profile from '../assets/jpeg/CJ-profile.jpeg'
+// need to update corrected resume!
 
 export const headerData = {
-    name: 'Jane Doe',
+    name: 'Clare Jachim',
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
+    desciption:"I’m a student at Lehigh University passionate about Web Design and UI/UX Engineering; who wants to shape the future of online engagement. ",
+    image: profile,
+    resumePdf: resume // need to be updated!
 }

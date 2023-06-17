@@ -41,6 +41,7 @@
 }
 
 .expcard-img {
+    margin-top: 3%;
     border-radius: 50%;
     width: 55px;
     height: 55px;
@@ -51,12 +52,13 @@
 }
 
 .expcard-img > img {
+  
     width: 36px;
     pointer-events: none;
 }
 
 .experience-details {
-    margin-left: 0.6rem;
+    margin-left: 0.8rem;
 }
 
 .experience-details > h6 {
@@ -93,9 +95,26 @@
 }
 
 
+.subText{
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    font-family: var(--primaryFont);
+    margin-top: 10px;
+}
 
+.subTextContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
 
-
+.experience-card.expanded{
+    padding-bottom: 50%;
+    transition: height 0.3s ease;
+   
+}
 
 @media (min-width: 992px) and (max-width: 1380px) {
 
